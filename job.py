@@ -55,6 +55,7 @@ def copy_file(condition, x=None):
             logger.error('Файл не найден %s', ex)
 
 
+
 def delete_file(condition, x=None):
     file = 'punchline.txt'
     obj = Path(file)
